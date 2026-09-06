@@ -26,6 +26,9 @@
 * [`Bresenham`](docs/unfinishedBresenham.md) — Comprendre le fonctionnement de Bresenham par l'hydraulique.
 
 ### 03. Projets en cours
+* [`Automate cellulaire`](projects/kitt/main.c) — Reconstruction bitwise de l'emblématique faisceau de Kitt de K2000
+* [`Morpion`](projects/tic_tac_toe/) — Jeu du Morpion dans un registre unique
+* [`Physics engine`](projects/platformer/) — Développement d'un moteur physique pour jeu de plateformes 2D
 
 ---
 
