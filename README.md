@@ -18,9 +18,9 @@
 ##  Index des Recettes
 
 ### 01. Les premiers scripts
-* [`bitPrimitive_and_gamePrototype`](prototypes/bitPrimitive_and_gamePrototype) — Reconstruire la boîte à outils binaire et un prototype de morpion dans un registre unique.
-* [`collisions_and_aiBitwise`](prototypes/collisions_and_aiBitwise) — Réflexions autour des collisions statiques 2D et sur l'AI du morpion basée sur les graphes.
-* [`fastSub`](prototypes/fastSub) — Travail autour du shift add pour créer des divisions.
+* [`bitPrimitive_and_gamePrototype`](prototypes/bitPrimitive_and_gamePrototype.c) — Reconstruire la boîte à outils binaire et un prototype de morpion dans un registre unique.
+* [`collisions_and_aiBitwise`](prototypes/collisions_and_aiBitwise.c) — Réflexions autour des collisions statiques 2D et sur l'AI du morpion basée sur les graphes.
+* [`fastSub`](prototypes/fastSub.c) — Travail autour du shift add pour créer des divisions.
 
 ### 02. Réflexions personnelles
 * [`Bresenham`](docs/unfinishedBresenham.md) — Comprendre le fonctionnement de Bresenham par l'hydraulique.
