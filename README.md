@@ -11,18 +11,21 @@
 - **Zero-Branching & Déterminisme :** Éliminer les conditions (`if`, `while`) au profit d'opérateurs logiques (`&`, `|`, `^`, `~`, `<<`, `>>`) pour garantir un temps d'exécution constant.
 - **Émergence par la contrainte :** Refuser de consommer des solutions toutes faites pour laisser les propriétés mathématiques émerger de la structure des bits.
 
- [Lire la Genèse complète du projet dans docs/GENESIS.md](docs/GENESIS.md)
+ [Lire la Genèse complète du projet dans GENESIS.md](GENESIS.md)
 
 ---
 
 ##  Index des Recettes
 
-### 01. Fondations Logiques
-* [`01_nand_to_alu.md`](recipes/01_nand_to_alu.md) — Reconstruire la boîte à outils binaire à partir de la porte universelle NAND.
-* [`02_branchless_add.md`](recipes/02_branchless_add.md) — De la boucle conditionnelle à l'additionneur binaire déterministe.
+### 01. Les premiers scripts
+* [`bitPrimitive_and_gamePrototype`](prototypes/bitPrimitive_and_gamePrototype.c) — Reconstruire la boîte à outils binaire et un prototype de morpion dans un registre unique.
+* [`collisions_and_aiBitwise`](prototypes/collisions_and_aiBitwise.c) — Réflexions autour des collisions statiques 2D et sur l'AI du morpion basée sur les graphes.
+* [`fastSub`](prototypes/fastSub.c) — Travail autour du shift add pour créer des divisions.
 
-### 02. Systèmes Témoins & Registres
-* [`03_tic_tac_toe_reg.md`](recipes/03_tic_tac_toe_reg.md) — Faire tenir un jeu de Morpion complet et son IA dans un unique registre 32 bits.
+### 02. Réflexions personnelles
+* [`Bresenham`](docs/unfinishedBresenham.md) — Comprendre le fonctionnement de Bresenham par l'hydraulique.
+
+### 03. Projets en cours
 
 ---
 
