@@ -20,10 +20,10 @@ int main() {
     unsigned int v = 1 << 31; // Initialisation de Kitt à gauche
 
     while(1) {
-        // 1. Ta formule de collision
+        // 1. Formule de collision
         v ^= ((v & 0x80000000) >> 31) | ((v & 0x00000002) >> 1);
 
-        // 2. Ta formule de mouvement
+        // 2. Formule de mouvement
         v = (1 & v) | ((v >> 1) << (2 & ((1 & v) - 1)));
 
         // 3. Affichage
